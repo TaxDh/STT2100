@@ -46,4 +46,5 @@ Définition: Saisir les données
 	
 Importer les données
 	Tableur
-	...
+	SPSS
+	JMP
