@@ -48,3 +48,18 @@ Importer les données
 	Tableur
 	SPSS
 	JMP
+	
+	
+--------------------------------------
+
+Operateur   sas
+
+	=		eq
+   ^=		ne
+   >		gt
+   <		lt
+   >=		ge
+   <=		le
+   &		and
+   |		or
+   ~		not
