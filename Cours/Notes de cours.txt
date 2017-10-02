@@ -63,3 +63,15 @@ Operateur   sas
    &		and
    |		or
    ~		not
+   
+   
+-------------------------
+   
+Combinaison de tables:
+   -concaténation (une table par dessus l'autre) := set
+		ex: pgm20
+   -fusion bi-univoque (une à côté de l'autre) := merge
+		ex: pgm21
+   -croisement (c'est une fusion des 2 tables) := set ... by
+   
+   -fusion par appariement := merge .... by
