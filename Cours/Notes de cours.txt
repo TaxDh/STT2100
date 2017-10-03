@@ -69,9 +69,9 @@ Operateur   sas
    
 Combinaison de tables:
    -concaténation (une table par dessus l'autre) := set
-		ex: pgm20
+		ex: pgm20.sas
    -fusion bi-univoque (une à côté de l'autre) := merge
-		ex: pgm21
+		ex: pgm21.sas
    -croisement (c'est une fusion des 2 tables) := set ... by
-   
+		ex: croisement.sas
    -fusion par appariement := merge .... by
