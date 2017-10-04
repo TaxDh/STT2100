@@ -1,3 +1,6 @@
+dm log 'clear';
+dm output 'clear';
+
 data poulet;
 	infile datalines dlm=",";
 	input sexe $ y z;
