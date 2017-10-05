@@ -4,14 +4,14 @@ dm output 'clear';
 data prof;
 	infile 'prof.txt';
 	input Sexe DateEnt Dep $ SalEnt Sal01 Exp Anc;
-	label DatEnt = "Date d'entree"
+	label DateEnt = "Date d'entree"
 		  Dep = "Departement"
 		  SalEnt = "salaire de l'embauche"
 		  Exp = "experience anterieur (en mois)"
 		  Anc = "anciennete (en annees)";
 run;
 
-proc print data = prof label;
+proc print data = prof label noobs;
 run;
 
 proc freq data=prof;
