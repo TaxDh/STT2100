@@ -12,5 +12,5 @@ run;
 proc print data = table_sas;
 run;
 
-proc contents datafiles = table_sas;
+proc contents data = table_sas;
 run;
