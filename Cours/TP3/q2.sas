@@ -2,14 +2,24 @@ dm log 'clear';
 dm output 'clear';
 
 data blood;
-	infile 'Blood.txt';
-	informat sexe $6. groupe $2. age $5.;
-	input no sexe groupe age WBC RBC Chol;
+	 infile 'blood.txt';
+	 input No Sexe $ GS $ GA $ WBC RBC Chol;
+	 label	 GS = 'groupe sanguin' 
+			 GA = 'groupe d’âge'
+			 WBC = 'niveau des globules blancs'
+			 Chol = 'Cholesterol'
+			 RBC='niveau des globules rouges';
+	 format Sexe sexefmt. No nofmt.;
 run;
 
-proc print data=blood;
+data Blood_A Blood_B;
+ 	set blood;
+ 	Combin = 0.001*WBC+RBC;
+	if Sexe='Female' and GS='AB' then output Blood_A; 
+ 	if  Sexe='Male' and GS='A' and Combin>10 then output Blood_B;
 run;
 
-/*Question 2*/
 
-/*dois y aller...*/
+
+proc print data=Blood_A label noobs;
+run;

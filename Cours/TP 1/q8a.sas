@@ -1,10 +1,12 @@
 dm log 'clear';
 dm output 'clear';
-
+/*lecture facile*/
 data q8;
 	infile 'stockprices.txt';
-	input titre $ date_achat DDMMYY10. prix_achat dollar4.2 date_vente DDMMYY10. prix_vente dollar4.2;
+	input titre $ 1-4 date_achat $ 5-14 prix_achat $ 16-20 quantite 22-24 date_vente $ 25-34prix_vente $36-40;
 run;
 
 proc print data=q8 noobs;
 run;
+
+
