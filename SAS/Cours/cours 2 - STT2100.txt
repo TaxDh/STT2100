@@ -1,0 +1,15 @@
+Logiciel SAS:
+
+Dans un programme sas, on a Étape DATA ET PROC:
+	DATA c'est pour faire venir les données...
+	PROC c'est pour analyser les données...
+	
+	
+Étape DATA:
+	Comment fonctionne une étape DATA?
+	réponse:
+		data table1;
+			...
+			énoncés
+			...
+		run;

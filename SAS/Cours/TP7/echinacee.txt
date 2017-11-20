@@ -1,0 +1,20 @@
+
+Jugement  Echinacee  Placebo
+
+Legere    153        170
+Moderee   128        157
+Severe    48         40
+
+
+Symptome               Echinacee  Placebo
+
+Irritation             13         7
+Rougeur                24         20
+Hyper-activite         30         23
+Diarrhee               38         34
+Vomissement            22         21
+Maux de tete           33         24
+Maux d'estomac         52         41
+Somnolence             63         48
+Autres                 63         48
+Au moins un symptome   152        146 

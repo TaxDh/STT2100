@@ -1,0 +1,9 @@
+Selon Antony:
+
+Rouge, erreur grave.
+
+Vert, avertissement. C'est à dire si on a écrit par exemple date au lieu de data, alors il l'a fait pareil et corrigé pour toi.
+
+Bleu, une erreur de syntaxe, une variable mal écrite ou autre.
+
+Voir tout le code en scrollant dans les messages d'erreur pour trouver où est l'erreur.
