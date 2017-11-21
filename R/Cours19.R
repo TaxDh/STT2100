@@ -53,6 +53,7 @@ prof[1:10, sapply(prof,is.numeric)]
 #on peut prendre la moyenne du tableau, donc de chaque colonne
 sapply(prof[1:10, sapply(prof,is.numeric)],mean)
 
+stats(Sal01)
 
 
 
