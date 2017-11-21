@@ -1,0 +1,26 @@
+stats(Sal01)
+   Moyenne Écart-type    Médiane    Minimum    Maximum 
+ 49034.905   9485.527  51646.000  27561.000  66220.000 
+> ls()
+[1] "allo"   "exp"    "prof"   "Sal01"  "salent" "stats"  "x"     
+> source("univ.R")
+Error in file(filename, "r", encoding = encoding) : 
+  impossible d'ouvrir la connexion
+De plus : Warning message:
+In file(filename, "r", encoding = encoding) :
+  impossible d'ouvrir le fichier 'univ.R' : No such file or directory
+> dir()
+ [1] "Cours18.R"          "Cours19.R"          "DebutR"             "panel.R"           
+ [5] "pgm01.R"            "premiereFonction.R" "prof.txt"           "Start.Rdata"       
+ [9] "stats.R"            "univariate.R"       "vecteur.txt"       
+> source("univariate.R")
+> ls()
+[1] "allo"   "exp"    "prof"   "Sal01"  "salent" "stats"  "univ"   "x"     
+> save.image("mesfun.RData")
+> load("mesfun.RData")
+> rm(list=ls(all=TRUE))
+> ls()
+character(0)
+> load("mesfun.RData")
+> ls()
+[1] "allo"   "exp"    "prof"   "Sal01"  "salent" "stats"  "univ"   "x"    

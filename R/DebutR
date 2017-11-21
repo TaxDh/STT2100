@@ -1,0 +1,1 @@
+Pour sauvegarder nos objets dans une fenêtre de travail: save.image("Nom_du_fichier.RData") 
